@@ -3,15 +3,15 @@ import '../assets/styles/login.css';
 
 const Login = () => {
     return (
-        <div className="page-layout">
 
-            <div className="page-content">
+        <div className="login-page">
 
+            <div className="login-background">
                 <LoginForm/>
-
             </div>
-
+            
         </div>
+
     )
 }
 
