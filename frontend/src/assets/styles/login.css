@@ -1,0 +1,16 @@
+@import './variables.css';
+
+.login-container {
+    background-color: var(--primary-color-white);
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 2000px;  
+    margin: 20px auto; 
+    text-align: left;
+    overflow-x: auto;  
+    overflow-y: auto; 
+    height: calc(100vh - 135px);
+}
+
